@@ -1,7 +1,9 @@
+import '../../styles/splitContent.scss';
+
 const SplitImageRight = ({ title, text, imageUrl, imageAlt }) => {
   return (
-    <div className="split-image-right">
-      <div className="container">
+    <section className="split-image-right">
+      <div className="container split-content">
         <div className="content">
           <h3>{title}</h3>
           <p>{text}</p>
@@ -10,7 +12,7 @@ const SplitImageRight = ({ title, text, imageUrl, imageAlt }) => {
           <img src={imageUrl} alt={imageAlt} />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

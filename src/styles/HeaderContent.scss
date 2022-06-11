@@ -1,0 +1,18 @@
+@import './clampsize.scss';
+@import './colors.scss';
+
+.header-content {
+    background-color: $autumn;
+    padding: max(15vh, 5vh + 1.5rem) 1.5rem;
+    text-align: center;
+}
+
+.header-content .content p {
+    font-size: $step--2;
+    color: $gray;
+}
+
+.header-content .content h2 {
+    font-size: $step-3;
+    color: $black;
+}

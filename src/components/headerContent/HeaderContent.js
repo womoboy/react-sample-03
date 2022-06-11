@@ -1,11 +1,13 @@
+import '../../styles/HeaderContent.scss';
+
 const HeaderContent = ({ title, text }) => {
   return (
-    <div className="header-content">
-      <div className="container">
+    <section className="header-content">
+      <div className="content">
         <p>{text}</p>
         <h2>{title}</h2>
       </div>
-    </div>
+    </section>
   );
 };
 
