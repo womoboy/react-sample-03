@@ -1,0 +1,23 @@
+@import './clampsize.scss';
+@import './colors.scss';
+
+.title-content {
+    padding: max(7vh, 2vh) 0;
+}
+
+.title-content h3 {
+    text-align: center;
+    font-size: $step-1;
+    border-bottom: 1px solid $gray;
+    padding-bottom: 1rem;
+    max-width: 90%;
+    margin-inline: auto;
+}
+
+.title-content p {
+    color: $gray;
+}
+
+.title-content .split-content {
+    padding: max(3vh, 1rem);
+}
