@@ -1,0 +1,47 @@
+@import './colors.scss';
+
+.contact-form {
+    width: min(90%, 500px);
+    margin-inline: auto;
+    background-color: $black;
+    padding: 1rem;
+    margin-top: -6rem;
+    z-index: 1;
+    border-radius: 1rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: max(10vh, 2vh) 1.5rem;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    color: $white;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+.contact-form form input {
+    border-bottom: 1px solid $gray ;
+}
+
+.contact-form form textarea {
+    border: 1px solid $gray;
+    height: max(10vh, 6vh);
+}
+
+.contact-form form button {
+    background-color: $gray;
+    color: $white;
+}
+
+.contact-form form button:hover {
+    background-color: $autumn;
+    color: $black;
+}
