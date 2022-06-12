@@ -1,0 +1,24 @@
+@import './colors.scss';
+
+header {
+    background-color: $black;
+}
+
+header nav {
+    display: flex;
+}
+
+header a {
+    color: $white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header a:hover {
+    background-color: $brown;
+    color: $white;
+}
+
+header a:active {
+    background-color: $autumn;
+}
