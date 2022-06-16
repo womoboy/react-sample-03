@@ -4,6 +4,7 @@ import SplitImageLeft from '../components/splitImageLeft/SplitImageLeft';
 import image1 from '../library/jungle.jpg';
 import image2 from '../library/mountain.jpg';
 import TitleContent from "../components/titleContent/TitleContent";
+import FeedbackList from "../components/feedbackList/FeedbackList";
 
 const Home = () => {
   const text = "This is a test text";
@@ -15,6 +16,7 @@ const Home = () => {
       <TitleContent title='The test title for this component' text1={ text1 } text2={ text1 } />
       <SplitImageRight title='The split image right' text={ text1 } imageUrl={ image1 } imageAlt='The beautifull autumn jungle' />
       <SplitImageLeft title='The split image left' text={ text1 } imageUrl={ image2 } imageAlt='The beautifull sunset mountain' />
+      <FeedbackList />
     </div>
   );
 };
