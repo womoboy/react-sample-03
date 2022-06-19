@@ -1,19 +1,22 @@
 {
-    "feedback": [
-        {
-            "id":1,
-            "author":"aria",
-            "text":"this is test text for this 1"
-        },
-        {
-            "id":2,
-            "author":"babak",
-            "text":"this is test text for this 2"
-        },
-        {
-            "id":3,
-            "author":"aria",
-            "text":"this is test text for this 3"
-        }
-    ]
+  "feedback": [
+    {
+      "fullname": "test 1",
+      "postmail": "test1@gamil.com",
+      "description": "this is a test text for this text 1",
+      "id": 1
+    },
+    {
+      "fullname": "test 2",
+      "postmail": "test2@gmail.com",
+      "description": "this is a test for this text 2",
+      "id": 2
+    },
+    {
+      "fullname": "test 3",
+      "postmail": "test3@gamil.com",
+      "description": "this is a test text for this test 3",
+      "id": 3
+    }
+  ]
 }

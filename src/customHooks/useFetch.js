@@ -4,6 +4,7 @@ const useFetch = (url) => {
   const [response, setResponse] = useState(null);
   const [error, setError] = useState(null);
   const [isPending, setIsPending] = useState(false);
+  const [palse, setPalse] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -27,6 +28,10 @@ const useFetch = (url) => {
             }
           }
         }
+        if(setPalse) {
+          console.log('palse is true');
+          setPalse(false);
+        }
       } catch (err) {
         if (err) {
           setIsPending(false);
@@ -35,9 +40,9 @@ const useFetch = (url) => {
         }
       }
     })();
-  }, [url]);
+  }, [url, palse]);
 
-  return { response, error, isPending };
+  return { response, error, isPending, setPalse };
 };
 
 export default useFetch;

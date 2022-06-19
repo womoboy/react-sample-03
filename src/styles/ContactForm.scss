@@ -1,4 +1,5 @@
 @import './colors.scss';
+@import './clampsize.scss';
 
 .contact-form {
     width: min(90%, 500px);
@@ -8,6 +9,12 @@
     margin-top: -6rem;
     z-index: 1;
     border-radius: 1rem;
+}
+
+.contact-form form h3 {
+    font-size: $step-1;
+    text-align: center;
+    color: $autumn;
 }
 
 .contact-form form {
